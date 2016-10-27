@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>node.js实现表单上传与下载文件</title>
+</head>
+<body>
+<form method="post" enctype='multipart/form-data'  onsubmit="return checkTask(this)">
+  <label for="resource">上传文档</label>
+  <input type="file" id="resource" name="resource">
+  <input type="submit" value = '新建任务'/>
+</form>
+
+<a href="/todos/download">下载文件</a>
+</body>
+</html>
